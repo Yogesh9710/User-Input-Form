@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+.email{
+color:red;
+}
+</style>
+<title>form tags</title>
+</head>
+<body>
+       <form>
+	      <fieldset>
+		  <legend>User Input form</legend>
+		  <label>Enter Name:</label><br>
+		  <input type="text" name="nm"/<br><br>
+		  
+		  <label>Enter Address:</label><br>
+		  <textarea rows="3"  col="20"  name="add"></textarea><br><br>
+		  
+		  <label>Enter Password</label><br>
+		  <input type="password" name="pass" required/><br><br>
+		  
+		  <label>Enter Email</label><br>
+		  <input type="email" class="email" name="email"/><br><br>
+		  
+		  <label>Select Gender</label><br>
+		  
+		  MALE:<input type="radio" id="male" name="Gendergrp" value="MALE">
+		  FEMALE:<input type="radio" id="female" name="Gendergrp" value="FEMALE"/><br><br>
+
+          <label>Select Hobbies</label><br>
+          Cricket<input type="checkbox" name="cricket" value="cricket">/<br>
+          Reading Books<input type="checkbox" name="books" value="books"><br>
+          Netsurfing<input type="checkbox" name="netsurfing" value="netsurfing"><br><br>
+
+          <!--drop down list-->
+          <label>Select country</label><br>
+          <Select name="country" id="register_country" style="width:160 px">
+		  <option value="select">--Select--</option>
+          <option value="india">india</option>
+		  <option value="pakistan">pakistan</option>
+		  <option value="africa">africa</option>
+		  <option value="china">china</option>
+		  <option value="other">other</option>
+</select>
+          <input type="submit" value="send"/>
+          </fieldset>
+
+          </form>
+</body>
+</html>		  
+		  
